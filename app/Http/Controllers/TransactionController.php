@@ -18,7 +18,7 @@ class TransactionController extends Controller
             'title' => 'Mon compte',
             'transactions' => Transaction::all()
         ];
-        return view('main', $data);
+        return view('transactions', $data);
     }
 
     /**
