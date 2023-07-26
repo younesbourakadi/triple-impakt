@@ -15,6 +15,7 @@ class TransactionController extends Controller
     public function index()
     {
         $data = [
+
             'title' => 'Mon compte',
             'transactions' => Transaction::all()
         ];
